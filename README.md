@@ -1,6 +1,8 @@
 ###  Description
 
 - Java/Maven Project for RESTful API done using Springboot framework
+  - Creates Data Base with Hogwarts students using JPA
+  - Can add student, update info, delete, and get student(s)
 
 ### Libraries in this maven project
 
@@ -30,3 +32,7 @@
 **Properties of SQL taken from**
 - https://github.com/amigoscode/spring-data-jpa-course
 - aw
+
+#### Runnig jar
+
+`java -jar <jarFilName>.jar --server.port=XXXX`
