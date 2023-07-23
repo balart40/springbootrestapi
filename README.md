@@ -29,3 +29,4 @@
 
 **Properties of SQL taken from**
 - https://github.com/amigoscode/spring-data-jpa-course
+- aw
