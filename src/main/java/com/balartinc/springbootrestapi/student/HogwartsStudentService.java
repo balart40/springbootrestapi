@@ -78,4 +78,12 @@ public class HogwartsStudentService {
             student.setEmail(email);
         }
     }
+
+    public Student getStudent(Long studentId) {
+        Optional<Student> optionalStudent = studentRepository.findById(studentId);
+        if(!optionalStudent.isPresent()) {
+            throw new IllegalStateException("Student Id: " + studentId + "not found");
+        }
+        return optionalStudent.get();
+    }
 }
